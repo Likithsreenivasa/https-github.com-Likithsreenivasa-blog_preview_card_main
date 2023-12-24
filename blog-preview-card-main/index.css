@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@300;400;500;600;700;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: 'Figtree', sans-serif;
+}
+html{
+    font-size: 62.5%;
+
+}
+body
+{
+    background-color: rgb(14, 14, 14);
+    overflow: hidden;
+}
+:root{
+    --default-margin:1vw 1vw ;
+}
+.container{
+    background-color: rgb(245, 208, 78);
+    height: 100vh;
+    margin: 0 16vw ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.section-1-card{
+    margin: 3vh 4vw;
+    width: 18vw;
+    height: 55vh;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 7.5px 7.5px 0px black;
+    border-radius: 10px;
+    border: 2px solid rgb(130, 114, 62);
+   
+}
+.section-1-img
+{
+
+    width: 16vw;
+    /* margin-top: 1vw;
+    margin-left: 1vw; */
+    margin: var(--default-margin);
+    border-radius: 1rem;
+
+}
+
+.section-1-button
+{
+    margin: 0.35vh 1vw;
+    padding: 0.75vh 0.75vw;
+    font-size: 10px;
+    font-weight: 900;
+    background-color: rgb(243, 208, 80);
+    color: rgb(40, 43, 27);
+    border-style:none ;
+    border-radius: 5px;
+}
+.section-1-date
+{
+    margin: 0 0vh 1vw 1vw;
+    padding-top: 1vh;
+    font-size: 11px;
+    color: rgb(57, 57, 57);
+    font-weight: bold;
+}
+.section-1-h3,
+.section-1-paragraph
+{
+    padding-left: 0.5vw;
+    margin: 0.9vh;
+
+    
+}
+.section-1-h3
+{
+    font-size: 18px;
+    font-weight: 900;
+    padding-bottom: 1.1vh;
+}
+.section-1-paragraph
+{
+    font-size: 12px;
+    line-height:17px;
+    color: rgb(156, 156, 156);
+    font-weight: bold;
+}
+.section-1-footer
+{
+    display: flex;
+}
+.section-1-profile
+{
+    width: 27px;
+    margin: 1vh 0 1vw 1vw;
+    height: 27px;
+}
+.section-1-name
+{
+    margin-top: 1.5vh;
+    margin-left: 0.65vw;
+    font-size: 10px;
+    font-weight: bold;
+}
+@media (max-width:801px) {
+    body
+    {
+        background-color: rgb(245, 208, 78);
+    }
+    .section-1-card
+    {
+        width: 50vw;
+        height: 75vh;
+    }
+    .section-1-img
+    {
+        width: 44vw;
+        margin: 3vw;
+    }
+    .section-1-button
+    {
+        margin-left: 3.5vw;
+        width: 15vw;
+        font-size: 17px;
+    }
+    .section-1-date
+    {
+        margin-left: 3.5vw;
+        margin-bottom: 2vh;
+        font-size: 13px;
+    }
+    .section-1-h3
+    {
+        margin-left: 3.5vw;
+        font-size: 22px;
+    }
+    .section-1-paragraph
+    {
+        margin-left: 3.5vw;
+        margin-right: 1vw;
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .section-1-profile
+    {
+        margin-left: 3.5vw;
+        margin-top: 3vw;
+        width: 5vw;
+        height: 5vh;
+    }
+    .section-1-name
+    {
+        margin-top: 4vw;
+        margin-left: 2vw;
+    }
+}
+@media (max-width:546px) {
+    body {
+            background-color: rgb(245, 208, 78);
+           
+        }
+    .container{
+            width: 100vw;
+            height: 100vh;
+            margin: 0 0;
+        }
+    
+        .section-1-card {
+            width: 80vw;
+            height: 74vh;
+            
+        }
+    
+        .section-1-img {
+            width: 72vw;
+            margin: 4vw;
+        }
+    
+        .section-1-button {
+            margin-left: 3.5vw;
+            width: 17vw;
+            font-size: 17px;
+        }
+    
+        .section-1-date {
+            margin-left: 4vw;
+            margin-bottom: 2vh;
+            font-size: 13px;
+        }
+    
+        .section-1-h3 {
+            margin-left: 3.5vw;
+            font-size: 22px;
+        }
+    
+        .section-1-paragraph {
+            margin-left: 3.5vw;
+            margin-right: 1vw;
+            font-size: 13px;
+            line-height: 20px;
+        }
+    
+        .section-1-profile {
+            margin-left: 4vw;
+            margin-top: 3vw;
+            width: 10vw;
+            height: 5vh;
+        }
+    
+      
+    
+}
+@media (max-width:376px) {
+    .section-1-card
+    {
+    width: 80vw;
+    height: 65vh;
+    }
+
+    .section-1-profile {
+            margin-left: 4vw;
+            margin-top: 3vw;
+            width: 8vw;
+            height: 4vh;
+        }
+     .section-1-name {
+            margin-top: 6vw;
+            margin-left: 2vw;
+        }
+    
+}
